@@ -2,7 +2,7 @@
 Summary:	VRML - Specification independent VRML methods (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/VRML/VRML-%{version}.tar.gz
