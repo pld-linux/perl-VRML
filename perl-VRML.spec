@@ -3,7 +3,7 @@ Summary:	VRML - Specification independent VRML methods (1.0, 2.0, 97)
 Summary(pl):	Modu³ VRML - metody VRML niezale¿ne od specyfikacji (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/VRML/VRML-%{version}.tar.gz
