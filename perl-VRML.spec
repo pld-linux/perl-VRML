@@ -1,10 +1,14 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test" (needs working, not busy /dev/audio!)
+#
 %include	/usr/lib/rpm/macros.perl
 Summary:	VRML Perl module - specification independent VRML methods (1.0, 2.0, 97)
 Summary(pl):	Modu³ Perla VRML - metody VRML niezale¿ne od specyfikacji (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
 Release:	9
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/VRML/VRML-%{version}.tar.gz
 # Source0-md5:	99899892d24042997d1b569fb64839b9
@@ -32,6 +36,8 @@ szczególnie pocz±tkuj±cym.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
