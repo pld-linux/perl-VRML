@@ -1,6 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	VRML perl module
-Summary(pl):	Modu³ perla VRML
+Summary:	VRML - Specification independent VRML methods (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
 Release:	7
@@ -13,10 +12,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-VRML perl module.
-
-%description -l pl
-Modu³ perla VRML.
+These modules were conceived for the production of VRML worlds on WWW
+servers via GCI and/or for generating abstract worlds. They are the
+clarity of Perl scripts with VRML code to increase and (hopefully)
+for VRML beginners the entrance in VRML facilitate. In the following
+the modules are described briefly.
 
 %prep
 %setup -q -n VRML-%{version}
