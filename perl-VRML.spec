@@ -29,15 +29,16 @@ szczególnie pocz±tkuj±cym.
 %setup -q -n VRML-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
@@ -46,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.TXT
-%{perl_sitelib}/VRML.pm
-%{perl_sitelib}/VRML
+%{perl_vendorlib}/VRML.pm
+%{perl_vendorlib}/VRML
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
