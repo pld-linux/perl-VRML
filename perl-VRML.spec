@@ -7,6 +7,7 @@ Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/VRML/VRML-%{version}.tar.gz
+# Source0-md5:	99899892d24042997d1b569fb64839b9
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
