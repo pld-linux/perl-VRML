@@ -3,7 +3,7 @@ Summary:	VRML perl module
 Summary(pl):	Modu³ perla VRML
 Name:		perl-VRML
 Version:	1.04
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/VRML/VRML-%{version}.tar.gz
