@@ -28,7 +28,7 @@ szczególnie pocz±tkuj±cym.
 %setup -q -n VRML-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
