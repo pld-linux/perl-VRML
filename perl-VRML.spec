@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	VRML Perl module - specification independent VRML methods (1.0, 2.0, 97)
-Summary(pl):	Modu≥ Perla VRML - metody VRML niezaleøne od specyfikacji (1.0, 2.0, 97)
+Summary(pl.UTF-8):   Modu≈Ç Perla VRML - metody VRML niezale≈ºne od specyfikacji (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
 Release:	9
@@ -23,11 +23,11 @@ servers via CGI and/or for generating abstract worlds. They are the
 clarity of Perl scripts with VRML code to increase and (hopefully)
 for VRML beginners the entrance in VRML facilitate.
 
-%description -l pl
-Te modu≥y by≥y pomy∂lane do tworzenia ∂wiatÛw VRML na serwerach WWW
-poprzez CGI i/lub generowania abstrakcyjnych ∂wiatÛw. £±cz± klarowno∂Ê
-skryptÛw Perla z kodem VRML, aby uprzystÍpniÊ tworzenie VRML,
-szczegÛlnie pocz±tkuj±cym.
+%description -l pl.UTF-8
+Te modu≈Çy by≈Çy pomy≈õlane do tworzenia ≈õwiat√≥w VRML na serwerach WWW
+poprzez CGI i/lub generowania abstrakcyjnych ≈õwiat√≥w. ≈ÅƒÖczƒÖ klarowno≈õƒá
+skrypt√≥w Perla z kodem VRML, aby uprzystƒôpniƒá tworzenie VRML,
+szczeg√≥lnie poczƒÖtkujƒÖcym.
 
 %prep
 %setup -q -n VRML-%{version}
