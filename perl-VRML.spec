@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	VRML Perl module - specification independent VRML methods (1.0, 2.0, 97)
-Summary(pl.UTF-8):   Moduł Perla VRML - metody VRML niezależne od specyfikacji (1.0, 2.0, 97)
+Summary(pl.UTF-8):	Moduł Perla VRML - metody VRML niezależne od specyfikacji (1.0, 2.0, 97)
 Name:		perl-VRML
 Version:	1.04
 Release:	9
